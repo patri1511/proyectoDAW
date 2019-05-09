@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="422.0" prefWidth="638.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="429.0" fitWidth="694.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@fondo%20practicas.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="228.0" fitWidth="314.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@fondo%20practicas%202.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="270.0" layoutY="31.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="166.0" text="AÑADIR ALUMNO">
+         <graphic>
+            <ImageView fitHeight="38.0" fitWidth="46.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@alumno.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="458.0" layoutY="30.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="166.0" text="AÑADIR EMPRESA">
+         <graphic>
+            <ImageView fitHeight="40.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@empresa.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="362.0" layoutY="100.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="166.0" text="AÑADIR HORARIO">
+         <graphic>
+            <ImageView fitHeight="75.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@horario.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controladora2">
+   <children>
+      <Button fx:id="Alumno" layoutX="55.0" layoutY="68.0" mnemonicParsing="false" onAction="#Alumno" prefHeight="91.0" prefWidth="239.0" text="ALUMNO">
+         <graphic>
+            <ImageView fitHeight="83.0" fitWidth="103.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@alumno.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="Empresa" layoutX="55.0" layoutY="200.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="239.0" text="EMPRESA">
+         <graphic>
+            <ImageView fitHeight="92.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@empresa.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="Ciclo" layoutX="326.0" layoutY="200.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="239.0" text="CICLO">
+         <graphic>
+            <ImageView fitHeight="91.0" fitWidth="103.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icono-fp.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="Instituto" layoutX="326.0" layoutY="68.0" mnemonicParsing="false" prefHeight="91.0" prefWidth="239.0" text="INSTITUTO">
+         <graphic>
+            <ImageView fitHeight="76.0" fitWidth="97.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@instituto.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>
